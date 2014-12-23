@@ -17,6 +17,9 @@ export DH_VERBOSE=1
 %:
 	dh $@
 
+override_dh_installcron:
+	dh_installcron --name=backup-mozilla
+
 get-orig-source:
 	rm -rf debian/tmp; mkdir debian/tmp
 	cd debian/tmp; wget https://github.com/chilicuil/learn/archive/master.tar.gz -O chilicuil-learn.tar.gz
