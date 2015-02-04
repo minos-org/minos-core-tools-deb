@@ -50,6 +50,7 @@ chilicuil-learn/autocp/completions/pxe                 usr/share/bash-completion
 chilicuil-learn/autocp/completions/eix                 usr/share/bash-completion/completions/
 chilicuil-learn/autocp/completions/pastebin            usr/share/bash-completion/completions/
 chilicuil-learn/autocp/completions/8tracks-downloader  usr/share/bash-completion/completions/
+chilicuil-learn/autocp/completions/youtube-dl          usr/share/bash-completion/completions/
 chilicuil-learn/autocp/completions/simple-tftpd        usr/share/bash-completion/completions/
 chilicuil-learn/autocp/completions/simple-dhcpp        usr/share/bash-completion/completions/
 chilicuil-learn/autocp/completions/simple-dhcpd        usr/share/bash-completion/completions/
