@@ -29,6 +29,7 @@ chilicuil-learn/sh/tools/shellshock            usr/bin/
 chilicuil-learn/sh/tools/trash                 usr/bin/
 chilicuil-learn/sh/tools/mailgun               usr/bin/
 chilicuil-learn/sh/tools/bin-dpkg-rdeps        usr/bin/
+chilicuil-learn/sh/tools/wget-finder           usr/bin/
 chilicuil-learn/sh/tools/backup-mozilla        usr/bin/
 chilicuil-learn/sh/tools/backup-remote-rsync   usr/bin/
 
