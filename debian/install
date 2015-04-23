@@ -9,6 +9,8 @@ chilicuil-learn/python/simple-dhcpd       usr/bin/
 chilicuil-learn/python/simple-httpd       usr/bin/
 
 chilicuil-learn/sh/tools/mvs                   usr/bin/
+chilicuil-learn/sh/tools/update-cd             usr/bin/
+chilicuil-learn/sh/tools/wcd                   usr/bin/
 chilicuil-learn/sh/tools/pxe                   usr/bin/
 chilicuil-learn/sh/tools/crypt                 usr/bin/
 chilicuil-learn/sh/tools/cpb64                 usr/bin/
@@ -31,7 +33,6 @@ chilicuil-learn/sh/tools/mailgun               usr/bin/
 chilicuil-learn/sh/tools/bin-dpkg-rdeps        usr/bin/
 chilicuil-learn/sh/tools/wget-finder           usr/bin/
 chilicuil-learn/sh/tools/pianocat              usr/bin/
-chilicuil-learn/sh/tools/backup-mozilla        usr/bin/
 chilicuil-learn/sh/tools/backup-remote-rsync   usr/bin/
 
 chilicuil-learn/autocp/completions/governator          usr/share/bash-completion/completions/
@@ -42,7 +43,6 @@ chilicuil-learn/autocp/completions/fu-search           usr/share/bash-completion
 chilicuil-learn/autocp/completions/compress            usr/share/bash-completion/completions/
 chilicuil-learn/autocp/completions/remove              usr/share/bash-completion/completions/
 chilicuil-learn/autocp/completions/howdoi              usr/share/bash-completion/completions/
-chilicuil-learn/autocp/completions/backup-mozilla      usr/share/bash-completion/completions/
 chilicuil-learn/autocp/completions/fuck                usr/share/bash-completion/completions/
 chilicuil-learn/autocp/completions/backup-remote-rsync usr/share/bash-completion/completions/
 chilicuil-learn/autocp/completions/trash               usr/share/bash-completion/completions/

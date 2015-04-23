@@ -9,7 +9,10 @@ Vcs-Browser: https://github.com/minos-org/minos-tools-extra-deb.git
 
 Package: minos-tools-extra
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, debconf
 Conflicts: youtube-dl
 Description: Minos extra tools
  Minos extra tools
+ .
+ Run $ sudo dpkg reconfigure minos-tools-extra for selecting what services to
+ enable.
