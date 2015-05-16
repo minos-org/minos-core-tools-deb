@@ -34,6 +34,7 @@ chilicuil-learn/sh/tools/bin-dpkg-rdeps        usr/bin/
 chilicuil-learn/sh/tools/wget-finder           usr/bin/
 chilicuil-learn/sh/tools/pianocat              usr/bin/
 chilicuil-learn/sh/tools/backup-remote-rsync   usr/bin/
+chilicuil-learn/sh/tools/backup-dbs            usr/bin/
 
 chilicuil-learn/autocp/completions/governator          usr/share/bash-completion/completions/
 chilicuil-learn/autocp/completions/share-backup        usr/share/bash-completion/completions/
@@ -45,6 +46,7 @@ chilicuil-learn/autocp/completions/remove              usr/share/bash-completion
 chilicuil-learn/autocp/completions/howdoi              usr/share/bash-completion/completions/
 chilicuil-learn/autocp/completions/fuck                usr/share/bash-completion/completions/
 chilicuil-learn/autocp/completions/backup-remote-rsync usr/share/bash-completion/completions/
+chilicuil-learn/autocp/completions/backup-dbs          usr/share/bash-completion/completions/
 chilicuil-learn/autocp/completions/trash               usr/share/bash-completion/completions/
 chilicuil-learn/autocp/completions/install             usr/share/bash-completion/completions/
 chilicuil-learn/autocp/completions/mailgun             usr/share/bash-completion/completions/
