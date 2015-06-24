@@ -25,6 +25,11 @@ get-orig-source:
 	cd debian/tmp; wget https://github.com/chilicuil/learn/archive/master.tar.gz -O chilicuil-learn.tar.gz
 	cd debian/tmp; tar xvzf chilicuil-learn.tar.gz
 	cd debian/tmp; mv learn-master chilicuil-learn
+
+	cd debian/tmp; wget https://github.com/minos-org/minos-static/archive/master.tar.gz -O minos-static.tar.gz
+	cd debian/tmp; tar xvzf minos-static.tar.gz
+	cd debian/tmp; mv minos-static-master minos-static
+
 	cd debian/tmp; mkdir minos-tools-extra-${DEB_UPSTREAM_VERSION}
 	cd debian/tmp; mv chilicuil-learn minos-tools-extra-${DEB_UPSTREAM_VERSION}
 	cd debian/tmp; tar cvJf minos-tools-extra_${DEB_UPSTREAM_VERSION}.orig.tar.xz minos-tools-extra-${DEB_UPSTREAM_VERSION}

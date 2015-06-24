@@ -59,3 +59,5 @@ chilicuil-learn/autocp/completions/simple-tftpd        usr/share/bash-completion
 chilicuil-learn/autocp/completions/simple-dhcpp        usr/share/bash-completion/completions/
 chilicuil-learn/autocp/completions/simple-dhcpd        usr/share/bash-completion/completions/
 chilicuil-learn/autocp/completions/simple-httpd        usr/share/bash-completion/completions/
+
+minos-static/static-get usr/bin/
