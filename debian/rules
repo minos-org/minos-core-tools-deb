@@ -31,7 +31,7 @@ get-orig-source:
 	cd debian/tmp; mv minos-static-master minos-static
 
 	cd debian/tmp; mkdir minos-tools-extra-${DEB_UPSTREAM_VERSION}
-	cd debian/tmp; mv chilicuil-learn minos-tools-extra-${DEB_UPSTREAM_VERSION}
+	cd debian/tmp; mv chilicuil-learn minos-static minos-tools-extra-${DEB_UPSTREAM_VERSION}
 	cd debian/tmp; tar cvJf minos-tools-extra_${DEB_UPSTREAM_VERSION}.orig.tar.xz minos-tools-extra-${DEB_UPSTREAM_VERSION}
 	mv debian/tmp/minos-tools-extra_${DEB_UPSTREAM_VERSION}.orig.tar.xz .
 	mv debian/tmp/minos-tools-extra-${DEB_UPSTREAM_VERSION} .
