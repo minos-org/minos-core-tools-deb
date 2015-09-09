@@ -20,7 +20,8 @@ case "${1}" in
             mv /etc/cron.d/"${cronjob}".disabled /etc/cron.d/"${cronjob}" 2>/dev/null || true
         done
 
-        update-cd || true
+        #enough with the cronjob
+        #update-cd || true
         ;;
     abort-upgrade|abort-deconfigure|abort-remove)
         ;;
