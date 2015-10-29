@@ -37,6 +37,7 @@ chilicuil-learn/sh/tools/wget-finder           usr/bin/
 chilicuil-learn/sh/tools/pianocat              usr/bin/
 chilicuil-learn/sh/tools/backup-remote-rsync   usr/bin/
 chilicuil-learn/sh/tools/backup-dbs            usr/bin/
+chilicuil-learn/sh/tools/ussh                  usr/bin/
 
 chilicuil-learn/autocp/completions/8tracks-downloader  usr/share/bash-completion/completions/
 chilicuil-learn/autocp/completions/backup-dbs          usr/share/bash-completion/completions/
