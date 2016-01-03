@@ -1,12 +1,14 @@
-chilicuil-learn/python/8tracks-downloader usr/bin/
-chilicuil-learn/python/eix                usr/bin/
-chilicuil-learn/python/pastebin           usr/bin/
-chilicuil-learn/python/pagekite           usr/bin/
-chilicuil-learn/python/youtube-dl         usr/bin/
-chilicuil-learn/python/simple-tftpd       usr/bin/
-chilicuil-learn/python/simple-dhcpp       usr/bin/
-chilicuil-learn/python/simple-dhcpd       usr/bin/
-chilicuil-learn/python/simple-httpd       usr/bin/
+chilicuil-learn/python/8tracks-downloader      usr/bin/
+chilicuil-learn/python/eix                     usr/bin/
+chilicuil-learn/python/pastebin                usr/bin/
+chilicuil-learn/python/pagekite                usr/bin/
+chilicuil-learn/python/youtube-dl              usr/bin/
+chilicuil-learn/python/simple-tftpd            usr/bin/
+chilicuil-learn/python/simple-dhcpp            usr/bin/
+chilicuil-learn/python/simple-dhcpd            usr/bin/
+chilicuil-learn/python/simple-httpd            usr/bin/
+chilicuil-learn/python/simple-mplayer-remote   usr/bin/
+chilicuil-learn/python/simple-mpc-remote       usr/bin/
 
 chilicuil-learn/perl/rmdup usr/bin/
 
