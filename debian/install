@@ -1,4 +1,3 @@
-chilicuil-learn/python/8tracks-downloader      usr/bin/
 chilicuil-learn/python/eix                     usr/bin/
 chilicuil-learn/python/pastebin                usr/bin/
 chilicuil-learn/python/pagekite                usr/bin/
@@ -43,7 +42,6 @@ chilicuil-learn/sh/tools/ussh                  usr/bin/
 chilicuil-learn/sh/tools/cconverter            usr/bin/
 chilicuil-learn/sh/tools/weather               usr/bin/
 
-chilicuil-learn/autocp/completions/8tracks-downloader  usr/share/bash-completion/completions/
 chilicuil-learn/autocp/completions/backup-dbs          usr/share/bash-completion/completions/
 chilicuil-learn/autocp/completions/backup-remote-rsync usr/share/bash-completion/completions/
 chilicuil-learn/autocp/completions/bin-dpkg-rdeps      usr/share/bash-completion/completions/
