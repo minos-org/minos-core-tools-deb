@@ -8,7 +8,7 @@ chilicuil-learn/python/simple-dhcpd            usr/bin/
 chilicuil-learn/python/simple-httpd            usr/bin/
 chilicuil-learn/python/simple-mplayer-remote   usr/bin/
 chilicuil-learn/python/simple-mpc-remote       usr/bin/
-chilicuil-learn/sh/simple-dlna-browser         usr/bin/
+chilicuil-learn/sh/tools/simple-dlna-browser   usr/bin/
 
 chilicuil-learn/perl/rmdup usr/bin/
 
