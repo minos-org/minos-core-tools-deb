@@ -1,5 +1,4 @@
 chilicuil-learn/python/tools/eix                   usr/bin/
-chilicuil-learn/python/tools/pastebin              usr/bin/
 chilicuil-learn/python/tools/pagekite              usr/bin/
 chilicuil-learn/python/tools/youtube-dl            usr/bin/
 chilicuil-learn/python/tools/simple-tftpd          usr/bin/
@@ -59,7 +58,6 @@ chilicuil-learn/autocp/completions/howdoi              usr/share/bash-completion
 chilicuil-learn/autocp/completions/install             usr/share/bash-completion/completions/
 chilicuil-learn/autocp/completions/mailgun             usr/share/bash-completion/completions/
 chilicuil-learn/autocp/completions/mvs                 usr/share/bash-completion/completions/
-chilicuil-learn/autocp/completions/pastebin            usr/share/bash-completion/completions/
 chilicuil-learn/autocp/completions/pianocat            usr/share/bash-completion/completions/
 chilicuil-learn/autocp/completions/purge               usr/share/bash-completion/completions/
 chilicuil-learn/autocp/completions/pxe                 usr/share/bash-completion/completions/
