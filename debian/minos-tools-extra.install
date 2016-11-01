@@ -79,6 +79,7 @@ chilicuil-learn/autocp/completions/weather             usr/share/bash-completion
 chilicuil-learn/autocp/completions/wget-finder         usr/share/bash-completion/completions/
 chilicuil-learn/autocp/completions/x-launcher          usr/share/bash-completion/completions/
 chilicuil-learn/autocp/completions/youtube-dl          usr/share/bash-completion/completions/
+chilicuil-learn/autocp/completions/mvs                 usr/share/bash-completion/completions/
 
 minos-static/static-get usr/bin/
 minos-static/extra/bash-completion/static-get usr/share/bash-completion/completions/
