@@ -1,12 +1,13 @@
 chilicuil-learn/python/tools/eix                   usr/bin/
 chilicuil-learn/python/tools/pagekite              usr/bin/
+chilicuil-learn/python/tools/youtube-dl            usr/bin/
 chilicuil-learn/python/tools/simple-dhcpd          usr/bin/
 chilicuil-learn/python/tools/simple-dhcpp          usr/bin/
 chilicuil-learn/python/tools/simple-httpd          usr/bin/
 chilicuil-learn/python/tools/simple-mpc-remote     usr/bin/
 chilicuil-learn/python/tools/simple-mplayer-remote usr/bin/
 chilicuil-learn/python/tools/simple-tftpd          usr/bin/
-chilicuil-learn/python/tools/youtube-dl            usr/bin/
+chilicuil-learn/python/tools/simple-player-ctrl-remote usr/bin/
 
 chilicuil-learn/perl/rmdup usr/bin/
 
@@ -66,12 +67,6 @@ chilicuil-learn/autocp/completions/pxe                 usr/share/bash-completion
 chilicuil-learn/autocp/completions/remove              usr/share/bash-completion/completions/
 chilicuil-learn/autocp/completions/rmdup               usr/share/bash-completion/completions/
 chilicuil-learn/autocp/completions/share-backup        usr/share/bash-completion/completions/
-chilicuil-learn/autocp/completions/simple-dhcpd        usr/share/bash-completion/completions/
-chilicuil-learn/autocp/completions/simple-dhcpp        usr/share/bash-completion/completions/
-chilicuil-learn/autocp/completions/simple-dlna-browser usr/share/bash-completion/completions/
-chilicuil-learn/autocp/completions/simple-httpd        usr/share/bash-completion/completions/
-chilicuil-learn/autocp/completions/simple-mplayer-remote usr/share/bash-completion/completions/
-chilicuil-learn/autocp/completions/simple-tftpd        usr/share/bash-completion/completions/
 chilicuil-learn/autocp/completions/trash               usr/share/bash-completion/completions/
 chilicuil-learn/autocp/completions/uimg                usr/share/bash-completion/completions/
 chilicuil-learn/autocp/completions/vim-show            usr/share/bash-completion/completions/
@@ -81,6 +76,14 @@ chilicuil-learn/autocp/completions/x-launcher          usr/share/bash-completion
 chilicuil-learn/autocp/completions/youtube-dl          usr/share/bash-completion/completions/
 chilicuil-learn/autocp/completions/mvs                 usr/share/bash-completion/completions/
 chilicuil-learn/autocp/completions/mvn                 usr/share/bash-completion/completions/
+chilicuil-learn/autocp/completions/simple-dhcpd        usr/share/bash-completion/completions/
+chilicuil-learn/autocp/completions/simple-dhcpp        usr/share/bash-completion/completions/
+chilicuil-learn/autocp/completions/simple-dlna-browser usr/share/bash-completion/completions/
+chilicuil-learn/autocp/completions/simple-httpd        usr/share/bash-completion/completions/
+chilicuil-learn/autocp/completions/simple-tftpd        usr/share/bash-completion/completions/
+chilicuil-learn/autocp/completions/simple-mpc-remote   usr/share/bash-completion/completions/
+chilicuil-learn/autocp/completions/simple-mplayer-remote     usr/share/bash-completion/completions/
+chilicuil-learn/autocp/completions/simple-player-ctrl-remote usr/share/bash-completion/completions/
 
 minos-static/static-get usr/bin/
 minos-static/extra/bash-completion/static-get usr/share/bash-completion/completions/
