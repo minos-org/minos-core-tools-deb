@@ -1,18 +1,18 @@
-Source: minos-tools-extra
+Source: minos-core-tools
 Section: utils
 Priority: optional
 Maintainer: Javier López <m@javier.io>
 Build-Depends: debhelper (>= 7.0.5)
 Standards-Version: 3.9.4
-Vcs-Git: git://github.com/minos-org/minos-tools-extra-deb.git
-Vcs-Browser: https://github.com/minos-org/minos-tools-extra-deb.git
+Vcs-Git: git://github.com/minos-org/minos-core-tools-deb.git
+Vcs-Browser: https://github.com/minos-org/minos-core-tools-deb.git
 
-Package: minos-tools-extra
+Package: minos-core-tools
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}, debconf
 Conflicts: youtube-dl
 Description: Minos extra tools
  Minos extra tools
  .
- Run $ sudo dpkg reconfigure minos-tools-extra for selecting what services to
+ Run $ sudo dpkg reconfigure minos-core-tools for selecting what services to
  enable.

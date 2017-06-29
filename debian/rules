@@ -30,9 +30,9 @@ get-orig-source:
 	cd debian/tmp; tar xvzf minos-static.tar.gz
 	cd debian/tmp; mv minos-static-master minos-static
 
-	cd debian/tmp; mkdir minos-tools-extra-${DEB_UPSTREAM_VERSION}
-	cd debian/tmp; mv javier-lopez-learn minos-static minos-tools-extra-${DEB_UPSTREAM_VERSION}
-	cd debian/tmp; tar cvJf minos-tools-extra_${DEB_UPSTREAM_VERSION}.orig.tar.xz minos-tools-extra-${DEB_UPSTREAM_VERSION}
-	mv debian/tmp/minos-tools-extra_${DEB_UPSTREAM_VERSION}.orig.tar.xz .
-	mv debian/tmp/minos-tools-extra-${DEB_UPSTREAM_VERSION} .
+	cd debian/tmp; mkdir minos-core-tools-${DEB_UPSTREAM_VERSION}
+	cd debian/tmp; mv javier-lopez-learn minos-static minos-core-tools-${DEB_UPSTREAM_VERSION}
+	cd debian/tmp; tar cvJf minos-core-tools_${DEB_UPSTREAM_VERSION}.orig.tar.xz minos-core-tools-${DEB_UPSTREAM_VERSION}
+	mv debian/tmp/minos-core-tools_${DEB_UPSTREAM_VERSION}.orig.tar.xz .
+	mv debian/tmp/minos-core-tools-${DEB_UPSTREAM_VERSION} .
 	rm -rf debian/tmp

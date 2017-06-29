@@ -1,15 +1,15 @@
-Debian packaging for minos-tools-extra
---------------------------------------
+Debian packaging for minos-core-tools
+-------------------------------------
 
 Steps to build this package:
 
 ```
-$ git clone --dept=1 https://github.com/minos-org/minos-tools-extra-deb
-$ cd minos-tools-extra-deb
+$ git clone --dept=1 https://github.com/minos-org/minos-core-tools-deb
+$ cd minos-core-tools-deb
 $ dch -i #insert proper upstream version (1:$(date +%Y%m%d%H%M)+git7digitsHash-minos)
 $ debian/rules get-orig-source
-$ mv debian minos-tools-extra-*
-$ cd minos-tools-extra-*
+$ mv debian minos-core-tools-*
+$ cd minos-core-tools-*
 
 [ Optional, make some adaptations, like updating debian/patches, if needed ]
 [ document additional changes if required, $EDITOR debian/changelog ]

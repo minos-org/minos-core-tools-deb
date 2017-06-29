@@ -1,4 +1,4 @@
-Template: minos-tools-extra/cronjobs
+Template: minos-core-tools/cronjobs
 Type: multiselect
 Choices: update-cd
 Default: update-cd

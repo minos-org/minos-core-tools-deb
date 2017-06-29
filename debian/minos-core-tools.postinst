@@ -5,9 +5,9 @@ set -e
 case "${1}" in
     configure)
         #fetching configuration from debconf
-        db_get minos-tools-extra/cronjobs
+        db_get minos-core-tools/cronjobs
         cronjobs="${RET}"
-        db_metaget minos-tools-extra/cronjobs Choices
+        db_metaget minos-core-tools/cronjobs Choices
         origcronjobs="${RET}"
 
         for origcronjob in ${origcronjobs}; do
