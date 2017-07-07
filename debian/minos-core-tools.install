@@ -19,6 +19,7 @@ javier-lopez-learn/sh/tools/cconverter            usr/bin/
 javier-lopez-learn/sh/tools/commacd               usr/bin/
 javier-lopez-learn/sh/tools/compress              usr/bin/
 javier-lopez-learn/sh/tools/cpb64                 usr/bin/
+javier-lopez-learn/sh/tools/cb                    usr/bin/
 javier-lopez-learn/sh/tools/crypt                 usr/bin/
 javier-lopez-learn/sh/tools/extract               usr/bin/
 javier-lopez-learn/sh/tools/fu-search             usr/bin/
@@ -52,6 +53,7 @@ javier-lopez-learn/autocp/completions/cat-show            usr/share/bash-complet
 javier-lopez-learn/autocp/completions/cconverter          usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/compress            usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/cpb64               usr/share/bash-completion/completions/
+javier-lopez-learn/autocp/completions/cb                  usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/eix                 usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/extract             usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/fu-search           usr/share/bash-completion/completions/
@@ -67,6 +69,7 @@ javier-lopez-learn/autocp/completions/pxe                 usr/share/bash-complet
 javier-lopez-learn/autocp/completions/remove              usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/rmdup               usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/share-backup        usr/share/bash-completion/completions/
+javier-lopez-learn/autocp/completions/staticus            usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/trash               usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/uimg                usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/vim-show            usr/share/bash-completion/completions/
@@ -74,7 +77,6 @@ javier-lopez-learn/autocp/completions/weather             usr/share/bash-complet
 javier-lopez-learn/autocp/completions/wget-finder         usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/x-launcher          usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/youtube-dl          usr/share/bash-completion/completions/
-javier-lopez-learn/autocp/completions/mvs                 usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/mvn                 usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/simple-dhcpd        usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/simple-dhcpp        usr/share/bash-completion/completions/
