@@ -1,6 +1,7 @@
 javier-lopez-learn/python/tools/eix                   usr/bin/
 javier-lopez-learn/python/tools/pagekite              usr/bin/
 javier-lopez-learn/python/tools/youtube-dl            usr/bin/
+javier-lopez-learn/python/tools/chromecast            usr/bin/
 javier-lopez-learn/python/tools/simple-dhcpd          usr/bin/
 javier-lopez-learn/python/tools/simple-dhcpp          usr/bin/
 javier-lopez-learn/python/tools/simple-httpd          usr/bin/
@@ -71,6 +72,7 @@ javier-lopez-learn/autocp/completions/purge                     usr/share/bash-c
 javier-lopez-learn/autocp/completions/pxe                       usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/remove                    usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/rmdup                     usr/share/bash-completion/completions/
+javier-lopez-learn/autocp/completions/chromecast                usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/share-backup              usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/simple-dhcpd              usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/simple-dhcpp              usr/share/bash-completion/completions/
