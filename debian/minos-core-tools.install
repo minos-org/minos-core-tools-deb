@@ -67,6 +67,7 @@ javier-lopez-learn/autocp/completions/install                   usr/share/bash-c
 javier-lopez-learn/autocp/completions/mailgun                   usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/mvn                       usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/mvs                       usr/share/bash-completion/completions/
+javier-lopez-learn/autocp/completions/nload                     usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/pianocat                  usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/purge                     usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/pxe                       usr/share/bash-completion/completions/
