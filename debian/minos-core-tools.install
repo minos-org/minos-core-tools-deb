@@ -25,6 +25,7 @@ javier-lopez-learn/sh/tools/crypt                 usr/bin/
 javier-lopez-learn/sh/tools/extract               usr/bin/
 javier-lopez-learn/sh/tools/fu-search             usr/bin/
 javier-lopez-learn/sh/tools/fuck                  usr/bin/
+javier-lopez-learn/sh/tools/battery               usr/bin/
 javier-lopez-learn/sh/tools/gh-release-downloader usr/bin/
 javier-lopez-learn/sh/tools/governator            usr/bin/
 javier-lopez-learn/sh/tools/howdoi                usr/bin/
@@ -60,6 +61,7 @@ javier-lopez-learn/autocp/completions/eix                       usr/share/bash-c
 javier-lopez-learn/autocp/completions/extract                   usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/fu-search                 usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/fuck                      usr/share/bash-completion/completions/
+javier-lopez-learn/autocp/completions/battery                   usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/gh-release-downloader     usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/governator                usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/howdoi                    usr/share/bash-completion/completions/
