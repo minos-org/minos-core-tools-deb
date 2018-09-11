@@ -2,7 +2,6 @@ javier-lopez-learn/python/tools/eix                   usr/bin/
 javier-lopez-learn/python/tools/pagekite              usr/bin/
 javier-lopez-learn/python/tools/youtube-dl            usr/bin/
 javier-lopez-learn/python/tools/chromecast            usr/bin/
-javier-lopez-learn/python/tools/chromecastize         usr/bin/
 javier-lopez-learn/python/tools/simple-dhcpd          usr/bin/
 javier-lopez-learn/python/tools/simple-dhcpp          usr/bin/
 javier-lopez-learn/python/tools/simple-httpd          usr/bin/
@@ -20,6 +19,7 @@ javier-lopez-learn/sh/tools/bin-dpkg-rdeps        usr/bin/
 javier-lopez-learn/sh/tools/cat-show              usr/bin/
 javier-lopez-learn/sh/tools/cb                    usr/bin/
 javier-lopez-learn/sh/tools/cconverter            usr/bin/
+javier-lopez-learn/sh/tools/chromecastize         usr/bin/
 javier-lopez-learn/sh/tools/commacd               usr/bin/
 javier-lopez-learn/sh/tools/compress              usr/bin/
 javier-lopez-learn/sh/tools/cpb64                 usr/bin/
@@ -37,9 +37,9 @@ javier-lopez-learn/sh/tools/mvs                   usr/bin/
 javier-lopez-learn/sh/tools/pianocat              usr/bin/
 javier-lopez-learn/sh/tools/pxe                   usr/bin/
 javier-lopez-learn/sh/tools/share-backup          usr/bin/
-javier-lopez-learn/sh/tools/sshock                usr/bin/
 javier-lopez-learn/sh/tools/shell-profiler        usr/bin/
 javier-lopez-learn/sh/tools/simple-dlna-browser   usr/bin/
+javier-lopez-learn/sh/tools/sshock                usr/bin/
 javier-lopez-learn/sh/tools/staticus              usr/bin/
 javier-lopez-learn/sh/tools/translate             usr/bin/
 javier-lopez-learn/sh/tools/trash                 usr/bin/
