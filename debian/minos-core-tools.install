@@ -2,6 +2,7 @@ javier-lopez-learn/python/tools/eix                   usr/bin/
 javier-lopez-learn/python/tools/pagekite              usr/bin/
 javier-lopez-learn/python/tools/youtube-dl            usr/bin/
 javier-lopez-learn/python/tools/chromecast            usr/bin/
+javier-lopez-learn/python/tools/chromecastize         usr/bin/
 javier-lopez-learn/python/tools/simple-dhcpd          usr/bin/
 javier-lopez-learn/python/tools/simple-dhcpp          usr/bin/
 javier-lopez-learn/python/tools/simple-httpd          usr/bin/
@@ -14,6 +15,7 @@ javier-lopez-learn/perl/rmdup usr/bin/
 
 javier-lopez-learn/sh/tools/backup-dbs            usr/bin/
 javier-lopez-learn/sh/tools/backup-remote-rsync   usr/bin/
+javier-lopez-learn/sh/tools/battery               usr/bin/
 javier-lopez-learn/sh/tools/bin-dpkg-rdeps        usr/bin/
 javier-lopez-learn/sh/tools/cat-show              usr/bin/
 javier-lopez-learn/sh/tools/cb                    usr/bin/
@@ -25,8 +27,8 @@ javier-lopez-learn/sh/tools/crypt                 usr/bin/
 javier-lopez-learn/sh/tools/extract               usr/bin/
 javier-lopez-learn/sh/tools/fu-search             usr/bin/
 javier-lopez-learn/sh/tools/fuck                  usr/bin/
-javier-lopez-learn/sh/tools/battery               usr/bin/
 javier-lopez-learn/sh/tools/gh-release-downloader usr/bin/
+javier-lopez-learn/sh/tools/git-change-author     usr/bin/
 javier-lopez-learn/sh/tools/governator            usr/bin/
 javier-lopez-learn/sh/tools/howdoi                usr/bin/
 javier-lopez-learn/sh/tools/mailgun               usr/bin/
@@ -35,7 +37,8 @@ javier-lopez-learn/sh/tools/mvs                   usr/bin/
 javier-lopez-learn/sh/tools/pianocat              usr/bin/
 javier-lopez-learn/sh/tools/pxe                   usr/bin/
 javier-lopez-learn/sh/tools/share-backup          usr/bin/
-javier-lopez-learn/sh/tools/shellshock            usr/bin/
+javier-lopez-learn/sh/tools/sshock                usr/bin/
+javier-lopez-learn/sh/tools/shell-profiler        usr/bin/
 javier-lopez-learn/sh/tools/simple-dlna-browser   usr/bin/
 javier-lopez-learn/sh/tools/staticus              usr/bin/
 javier-lopez-learn/sh/tools/translate             usr/bin/
@@ -44,6 +47,7 @@ javier-lopez-learn/sh/tools/uimg                  usr/bin/
 javier-lopez-learn/sh/tools/update-cd             usr/bin/
 javier-lopez-learn/sh/tools/ussh                  usr/bin/
 javier-lopez-learn/sh/tools/vim-show              usr/bin/
+javier-lopez-learn/sh/tools/wallet                usr/bin/
 javier-lopez-learn/sh/tools/wcd                   usr/bin/
 javier-lopez-learn/sh/tools/weather               usr/bin/
 javier-lopez-learn/sh/tools/wget-finder           usr/bin/
@@ -51,18 +55,20 @@ javier-lopez-learn/sh/tools/x-launcher            usr/bin/
 
 javier-lopez-learn/autocp/completions/backup-dbs                usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/backup-remote-rsync       usr/share/bash-completion/completions/
+javier-lopez-learn/autocp/completions/battery                   usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/bin-dpkg-rdeps            usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/cat-show                  usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/cb                        usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/cconverter                usr/share/bash-completion/completions/
+javier-lopez-learn/autocp/completions/chromecast                usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/compress                  usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/cpb64                     usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/eix                       usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/extract                   usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/fu-search                 usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/fuck                      usr/share/bash-completion/completions/
-javier-lopez-learn/autocp/completions/battery                   usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/gh-release-downloader     usr/share/bash-completion/completions/
+javier-lopez-learn/autocp/completions/git-change-author         usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/governator                usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/howdoi                    usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/install                   usr/share/bash-completion/completions/
@@ -75,8 +81,8 @@ javier-lopez-learn/autocp/completions/purge                     usr/share/bash-c
 javier-lopez-learn/autocp/completions/pxe                       usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/remove                    usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/rmdup                     usr/share/bash-completion/completions/
-javier-lopez-learn/autocp/completions/chromecast                usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/share-backup              usr/share/bash-completion/completions/
+javier-lopez-learn/autocp/completions/shell-profiler            usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/simple-dhcpd              usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/simple-dhcpp              usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/simple-dlna-browser       usr/share/bash-completion/completions/
@@ -89,6 +95,7 @@ javier-lopez-learn/autocp/completions/staticus                  usr/share/bash-c
 javier-lopez-learn/autocp/completions/trash                     usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/uimg                      usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/vim-show                  usr/share/bash-completion/completions/
+javier-lopez-learn/autocp/completions/wallet                    usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/weather                   usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/wget-finder               usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/x-launcher                usr/share/bash-completion/completions/
