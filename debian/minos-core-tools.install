@@ -104,6 +104,7 @@ javier-lopez-learn/autocp/completions/x-launcher                usr/share/bash-c
 javier-lopez-learn/autocp/completions/youtube-dl                usr/share/bash-completion/completions/
 
 javier-lopez-learn/autocp/completions/tor-socks-proxy           usr/share/bash-completion/completions/
+javier-lopez-learn/autocp/completions/docker.exec               usr/share/bash-completion/completions/
 
 minos-static/static-get usr/bin/
 minos-static/extra/bash-completion/static-get usr/share/bash-completion/completions/
