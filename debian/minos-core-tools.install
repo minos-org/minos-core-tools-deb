@@ -53,7 +53,7 @@ javier-lopez-learn/sh/tools/weather               usr/bin/
 javier-lopez-learn/sh/tools/wget-finder           usr/bin/
 javier-lopez-learn/sh/tools/x-launcher            usr/bin/
 
-javier-lopez-learn/sh/dockerized/tor-socks-proxy  usr/bin/
+javier-lopez-learn/sh/dockerized/* usr/bin/
 
 javier-lopez-learn/autocp/completions/backup-dbs                usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/backup-remote-rsync       usr/share/bash-completion/completions/
@@ -103,8 +103,8 @@ javier-lopez-learn/autocp/completions/wget-finder               usr/share/bash-c
 javier-lopez-learn/autocp/completions/x-launcher                usr/share/bash-completion/completions/
 javier-lopez-learn/autocp/completions/youtube-dl                usr/share/bash-completion/completions/
 
-javier-lopez-learn/autocp/completions/tor-socks-proxy           usr/share/bash-completion/completions/
-javier-lopez-learn/autocp/completions/docker.exec               usr/share/bash-completion/completions/
+javier-lopez-learn/autocp/completions/tor-socks-proxy.dockerized  usr/share/bash-completion/completions/
+javier-lopez-learn/autocp/completions/docker.exec                 usr/share/bash-completion/completions/
 
 minos-static/static-get usr/bin/
 minos-static/extra/bash-completion/static-get usr/share/bash-completion/completions/
