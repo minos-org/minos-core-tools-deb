@@ -12,6 +12,8 @@ javier-lopez-learn/python/tools/simple-player-ctrl-remote usr/bin/
 
 javier-lopez-learn/perl/rmdup usr/bin/
 
+javier-lopez-learn/sh/is/postinstall-minos        usr/bin/
+
 javier-lopez-learn/sh/tools/backup-dbs            usr/bin/
 javier-lopez-learn/sh/tools/backup-remote-rsync   usr/bin/
 javier-lopez-learn/sh/tools/battery               usr/bin/
@@ -40,6 +42,7 @@ javier-lopez-learn/sh/tools/share-backup          usr/bin/
 javier-lopez-learn/sh/tools/shell-profiler        usr/bin/
 javier-lopez-learn/sh/tools/simple-dlna-browser   usr/bin/
 javier-lopez-learn/sh/tools/sshock                usr/bin/
+javier-lopez-learn/sh/tools/ssl-get-cert          usr/bin/
 javier-lopez-learn/sh/tools/staticus              usr/bin/
 javier-lopez-learn/sh/tools/translate             usr/bin/
 javier-lopez-learn/sh/tools/trash                 usr/bin/
