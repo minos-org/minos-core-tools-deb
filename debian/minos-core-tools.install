@@ -10,7 +10,8 @@ javier-lopez-learn/python/tools/simple-mplayer-remote usr/bin/
 javier-lopez-learn/python/tools/simple-tftpd          usr/bin/
 javier-lopez-learn/python/tools/simple-player-ctrl-remote usr/bin/
 
-javier-lopez-learn/perl/rmdup usr/bin/
+javier-lopez-learn/perl/rmdup         usr/bin/
+javier-lopez-learn/perl/diff-so-fancy usr/bin/
 
 javier-lopez-learn/sh/is/postinstall-minos        usr/bin/
 

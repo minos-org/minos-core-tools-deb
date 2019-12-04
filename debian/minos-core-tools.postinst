@@ -1,30 +1,111 @@
 #!/bin/sh
-set -e
-. /usr/share/debconf/confmodule
+
+#Debconf hook. We don't rely on debconf being present at this time.
+if [ -e /usr/share/debconf/confmodule ];then
+    . /usr/share/debconf/confmodule
+    DEBCONFEXISTS="true"
+    export DEBCONFEXISTS
+else
+    DEBCONFEXISTS="false"
+    export DEBCONFEXISTS
+fi
+
+#close stdout
+#exec 1<&-
+##close stderr
+#exec 2<&-
+##open stdout as $log_file file for read and write.
+#exec 1<> "/tmp/minos-core-tools.${$}.debug"
+##redirect stderr to stdout
+#exec 2>&1
+#set -x #enable trace mode
+
+package="minos-core-tools"
+users="$(busybox cat /etc/passwd | busybox awk -F: '{if ($3 >= 1000 && $3 < 60000) print $1}')"
+
+_enable_setting() {
+    case "${1}" in
+        update-cd)
+            mv /etc/cron.d/"${1}".disabled /etc/cron.d/"${1}" || :
+            ;;
+
+        git)
+            for user in ${users}; do
+                su "${user}" -c "test -f ~/.minos/not_override" && continue
+                h="$(su "${user}" -c "echo ~" 2>/dev/null)"     || continue
+
+                printf "%s\\n" "${package}: configuring ${user}'s git diff-so-fancy handler"
+
+                #as per https://github.com/so-fancy/diff-so-fancy instructions
+                su "${user}" -c "git config --global core.pager 'diff-so-fancy | less --tabs=4 -RFX'"
+                su "${user}" -c "git config --global color.ui true"
+
+                su "${user}" -c "git config --global color.diff-highlight.oldNormal    'red bold'"
+                su "${user}" -c "git config --global color.diff-highlight.oldHighlight 'red bold 52'"
+                su "${user}" -c "git config --global color.diff-highlight.newNormal    'green bold'"
+                su "${user}" -c "git config --global color.diff-highlight.newHighlight 'green bold 22'"
+
+                su "${user}" -c "git config --global color.diff.meta       '11'"
+                su "${user}" -c "git config --global color.diff.frag       'magenta bold'"
+                su "${user}" -c "git config --global color.diff.commit     'yellow bold'"
+                su "${user}" -c "git config --global color.diff.old        'red bold'"
+                su "${user}" -c "git config --global color.diff.new        'green bold'"
+                su "${user}" -c "git config --global color.diff.whitespace 'red reverse'"
+            done
+            ;;
+    esac
+}
+
+_disable_setting() {
+    case "${1}" in
+        update-cd) mv /etc/cron.d/"${1}" /etc/cron.d/"${1}".disabled || : ;;
+        git) : ;; #TODO 03-12-2019 07:50 >> restore gitconfig/minos backup
+    esac
+}
 
 case "${1}" in
     configure)
-        #fetching configuration from debconf
-        db_get minos-core-tools/cronjobs
-        cronjobs="${RET}"
-        db_metaget minos-core-tools/cronjobs Choices
-        origcronjobs="${RET}"
+        if [ "${DEBCONFEXISTS}" = "true" ]; then
+            #get user settings
+            db_get "${package}"/settings
+            settings="${RET}"
 
-        for origcronjob in ${origcronjobs}; do
-            origcronjob="${origcronjob%,*}"
-            mv /etc/cron.d/"${origcronjob}" /etc/cron.d/"${origcronjob}".disabled 2>/dev/null || true
+            #get default settings
+            db_metaget "${package}"/settings Choices
+            default_settings="${RET}"
+        fi
+
+        #enable selected items
+        for setting in ${settings}; do
+            setting="${setting%,*}" #remove ',' from tail
+            _enable_setting "${setting}"
+
+            default_settings="$(printf "%s\\n" "${default_settings}" | busybox sed 's:'"${setting}"'[, ]*::')"
         done
 
-        for cronjob in ${cronjobs}; do
-            cronjob="${cronjob%,*}"
-            mv /etc/cron.d/"${cronjob}".disabled /etc/cron.d/"${cronjob}" 2>/dev/null || true
+        #disable not selected items
+        for not_selected_setting in ${default_settings}; do
+            not_selected_setting="${not_selected_setting%,*}" #remove ',' from tail
+            _disable_setting "${not_selected_setting}"
         done
-
-        #enough with the cronjob
-        #update-cd || true
         ;;
+
+    upgrade|remove) #abusing postinst to avoid repeating code in prerm
+        if [ "${DEBCONFEXISTS}" = "true" ]; then
+            #get default settings
+            db_metaget "${package}"/settings Choices
+            default_settings="${RET}"
+        fi
+
+        for setting in ${default_settings}; do
+            setting="${setting%,*}" #remove ',' from tail
+            _disable_setting "${setting}"
+        done
+        ;;
+
     abort-upgrade|abort-deconfigure|abort-remove)
         ;;
+
     *)
         printf "%s\\n" "${0} called with unknown argument \`${1}'" 1>&2
         exit 1

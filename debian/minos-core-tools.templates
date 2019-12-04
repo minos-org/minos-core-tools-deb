@@ -1,13 +1,18 @@
-Template: minos-core-tools/cronjobs
+Template: minos-core-tools/settings
 Type: multiselect
-Choices: update-cd
-Default: update-cd
-Description: Select the cronjobs to be installed.
- Minos extra tools setup additional cronjobs to fullfill the minos experience,
- all add-ons can be enable or disable by marking the following list
+Choices: update-cd, git
+Default: update-cd, git
+Description: Select the settings to be applied.
+ Setup additional settings to fullfill the minos experience,
+ all add-ons can be enable or disable by marking the following list.
  .
- update-cd: update wcd user's database. By default, cd is wrapped through the
+ [*] update-cd: update wcd user's database. By default, cd is wrapped through the
  wcd script which calls either wcd.exec(if installed) or build-in cd. If the
  former is installed it looks at the user wcd database ~/.wcd/.treedata.wcd
  and jump to the closest match, this allows to write partial paths to jump to
  long paths. This job creates a wcd database for every user everyday.
+ .
+ [*] git: configures https://github.com/so-fancy/diff-so-fancy
+ .
+ If a $HOME/.minos/not_override file exists modules will not alter files on
+ that user directory.
