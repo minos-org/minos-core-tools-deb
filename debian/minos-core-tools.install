@@ -13,7 +13,7 @@ javier-lopez-learn/python/tools/simple-player-ctrl-remote usr/bin/
 javier-lopez-learn/perl/rmdup         usr/bin/
 javier-lopez-learn/perl/diff-so-fancy usr/bin/
 
-javier-lopez-learn/sh/is/postinstall-minos        usr/bin/
+javier-lopez-learn/sh/is/minos-postinstall        usr/bin/
 
 javier-lopez-learn/sh/tools/backup-dbs            usr/bin/
 javier-lopez-learn/sh/tools/backup-remote-rsync   usr/bin/
