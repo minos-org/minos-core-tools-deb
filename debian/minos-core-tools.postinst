@@ -25,10 +25,6 @@ users="$(busybox cat /etc/passwd | busybox awk -F: '{if ($3 >= 1000 && $3 < 6000
 
 _enable_setting() {
     case "${1}" in
-        update-cd)
-            mv /etc/cron.d/"${1}".disabled /etc/cron.d/"${1}" || :
-            ;;
-
         git)
             for user in ${users}; do
                 su "${user}" -c "test -f ~/.minos/not_override" && continue
@@ -37,7 +33,9 @@ _enable_setting() {
                 printf "%s\\n" "${package}: configuring ${user}'s git diff-so-fancy handler"
 
                 #as per https://github.com/so-fancy/diff-so-fancy instructions
-                su "${user}" -c "git config --global core.pager 'diff-so-fancy | less --tabs=4 -RFX'"
+                #diff-so-fancy comes through shundle, per user, and a minimal install has no less: each
+                #missing piece is skipped (more is util-linux's, always there)
+                su "${user}" -c "git config --global core.pager 'if command -v diff-so-fancy >/dev/null; then diff-so-fancy; else cat; fi | if command -v less >/dev/null; then less --tabs=4 -RFX; else more; fi'"
                 su "${user}" -c "git config --global color.ui true"
 
                 su "${user}" -c "git config --global color.diff-highlight.oldNormal    'red bold'"
@@ -58,13 +56,15 @@ _enable_setting() {
 
 _disable_setting() {
     case "${1}" in
-        update-cd) mv /etc/cron.d/"${1}" /etc/cron.d/"${1}".disabled || : ;;
         git) : ;; #TODO 03-12-2019 07:50 >> restore gitconfig/minos backup
     esac
 }
 
 case "${1}" in
     configure)
+        #the update-cd module is gone (wcd comes from shundle and sets its own cron): what it parked
+        busybox rm -f /etc/cron.d/update-cd.disabled
+
         if [ "${DEBCONFEXISTS}" = "true" ]; then
             #get user settings
             db_get "${package}"/settings

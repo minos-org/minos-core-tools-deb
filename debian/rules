@@ -17,9 +17,6 @@ export DH_VERBOSE=1
 %:
 	dh $@
 
-override_dh_installcron:
-	dh_installcron --name=update-cd
-
 get-orig-source:
 	rm -rf debian/tmp; mkdir debian/tmp
 	cd debian/tmp; wget https://github.com/javier-lopez/learn/archive/master.tar.gz -O javier-lopez-learn.tar.gz
